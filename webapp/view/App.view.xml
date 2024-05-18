@@ -1,0 +1,7 @@
+<mvc:View controllerName="test1.invoices.controller.App"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+   <Button id="_IDGenButton1" text="{i18n>showHelloText}" press=".onShowHello" />  
+    <Input id="_IDGenInput1" value="{/recipient/name}" description="Hello {/recipient/name}" valueLiveUpdate="true"/>
+
+</mvc:View>
